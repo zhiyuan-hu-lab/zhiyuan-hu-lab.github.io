@@ -1,77 +1,35 @@
 ---
 title: Contact
 nav:
-  order: 5
+  order: 4
   tooltip: Email, address, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %}Contact / 联系
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+欢迎对单细胞与空间多组学、基因调控网络、发育与疾病机制研究感兴趣的同学、博士后与合作伙伴联系。
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="zhiyuan.hu@whu.edu.cn"
+  link="zhiyuan.hu@whu.edu.cn"
 %}
 {%
   include button.html
   type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="027-68750399"
+  link="+86-27-68750399"
 %}
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  tooltip="Our location"
+  link="https://map.baidu.com/search/%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E7%A0%94%E7%A9%B6%E9%99%A2"
 %}
 
 {% include section.html %}
 
-{% capture col1 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+湖北省武汉市武昌区东湖路 115 号  
+武汉大学医学研究院 / 免疫与代谢前沿科学中心  
+邮编 430072

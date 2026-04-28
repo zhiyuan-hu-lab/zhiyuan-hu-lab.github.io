@@ -5,12 +5,11 @@ nav:
   tooltip: Software, datasets, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-wrench" %}Projects / 项目
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Representative methods, software, and biological discovery projects from Hu Lab.
 
-{% include tags.html tags="publication, resource, website" %}
+{% include tags.html tags="software, method, single-cell, epigenomics, development" %}
 
 {% include search-info.html %}
 
