@@ -21,7 +21,7 @@
       data-dark="{{ dark }}"
     {% endif %}
     {% if image != "" %}
-      style="--image: url('{{ image | relative_url | uri_escape }}')"
+      style="--image: url('{{ image | relative_url }}')"
     {% endif %}
   >
     {{ section }}
