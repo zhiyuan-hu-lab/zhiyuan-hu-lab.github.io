@@ -1,47 +1,62 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: RegVelo
+  subtitle: Gene-regulatory-informed dynamics of single cells
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/projects/regvelo-cover.png
+  link: /projects/regvelo/
+  description: RegVelo 是一个 end-to-end 框架，将 splicing dynamics 与 gene regulatory priors 结合，用于推断单细胞 regulatory dynamics、latent time 和 perturbation effects。
+  repo: theislab/regvelo
   tags:
-    - resource
+    - software
+    - method
+    - single-cell
+    - GRN
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Neural crest regulatory circuits
+  subtitle: Single-cell multi-omics, spatial transcriptomics and systematic perturbation
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/projects/neural-crest-cover.png
+  link: /projects/neural-crest/
+  description: 该项目整合 multiome、Smart-seq3、MERSCOPE、Perturb-seq 与调控网络分析，用于解析 cranial neural crest migration 和 fate plasticity 的调控逻辑。
+  repo: zhiyhu/neural-crest-scmultiomics
   tags:
+    - publication
     - resource
+    - development
+    - multiomics
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: TEMPT
+  subtitle: Whole-genome EV-DNA methylation profiling
+  group: featured
+  image: images/projects/tempt-cover.png
+  link: /projects/tempt/
+  description: TEMPT 是面向 EV-DNA 的低输入、非亚硫酸氢盐全基因组甲基化测序方法，用于胃癌液体活检和细胞间通信特征识别。
+  repo: zhiyuan-hu-lab/TEMPT-paper
   tags:
-    - resource
+    - method
+    - epigenomics
+    - liquid-biopsy
     - publication
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: FINE-EM-seq
+  subtitle: Rapid isothermal methylome profiling for early embryos
+  image: images/projects/fine-em-seq-cover.png
+  link: /projects/fine-em-seq/
+  description: FINE-EM-seq 是面向斑马鱼早期胚胎的快速等温扩增甲基组方法，配套提供 reproducibility analysis repo。
+  repo: zhiyuan-hu-lab/FINE-EM-seq
   tags:
-    - software
+    - method
+    - epigenomics
+    - zebrafish
+    - publication
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: CIDER
+  subtitle: Interpretable meta-clustering for scRNA-seq integration and evaluation
+  image: images/projects/cider-cover.png
+  link: /projects/cider/
+  description: CIDER 是一个用于单细胞整合数据 meta-clustering 与 integration evaluation 的可解释框架，已提供文档站点与可安装 R 包。
+  repo: zhiyuan-hu-lab/CIDER
   tags:
     - software
+    - single-cell
+    - integration
+    - resource

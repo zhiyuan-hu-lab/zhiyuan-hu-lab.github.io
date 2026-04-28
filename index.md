@@ -1,21 +1,21 @@
 ---
 ---
 
-# Lab Website Template
+# Understanding Cell Fate with Single-cell and Regulatory Genomics
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+胡致远课题组聚焦单细胞与空间多组学、基因调控网络，以及发育与疾病机制。  
+我们结合实验、计算与机器学习方法，发展新技术与新算法，  
+并解析细胞命运决定、组织器官形成和疾病相关调控逻辑。
 
 {%
   include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
+  text="Explore Research"
+  link="research"
 %}
 {%
   include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
+  text="Join the Lab"
+  link="contact"
 %}
 
 {% include section.html %}
@@ -24,12 +24,12 @@ Spend less time worrying about managing a website and citations, and more time r
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+GRN-informed 单细胞动态建模框架，将 RNA velocity 与调控网络连接起来，用于轨迹推断、latent time 和 perturbation effect 预测。
 
 {%
   include button.html
-  link="research"
-  text="See our publications"
+  link="projects"
+  text="RegVelo"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -39,20 +39,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
+  image="images/highlights/regvelo.png"
+  link="projects"
+  title="RegVelo"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+整合单细胞 multiome、空间转录组与系统扰动，解析 cranial neural crest migration 与 fate plasticity 的调控网络。
 
 {%
   include button.html
   link="projects"
-  text="Browse our projects"
+  text="Neural crest"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -62,9 +62,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/highlights/neural-crest.png"
   link="projects"
-  title="Our Projects"
+  title="Cranial neural crest regulatory circuits"
   flip=true
   style="bare"
   text=text
@@ -72,12 +72,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+开发 TEMPT 与 FINE-EM-seq 等低输入甲基化测序方法，用于 EV-DNA 和早期胚胎甲基组研究。
 
 {%
   include button.html
-  link="team"
-  text="Meet our team"
+  link="projects"
+  text="Methylome methods"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -87,8 +87,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
+  image="images/highlights/methylome-methods.png"
+  link="projects"
+  title="Low-input methylome methods"
   text=text
 %}
