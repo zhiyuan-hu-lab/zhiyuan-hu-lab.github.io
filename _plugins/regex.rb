@@ -6,10 +6,10 @@ module Jekyll
     def regex_scan(string, search, multi = false, all = false)
       regex = multi ? /#{search}/m : /#{search}/
       matches = string.scan(regex).flatten
-      if matches.length
-        return all ? matches : matches[0]
+      if matches.length > 0
+        all ? matches : matches[0]
       else
-        return ""
+        ""
       end
     end
 
