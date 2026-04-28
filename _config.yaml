@@ -1,19 +1,18 @@
 # site properties and page defaults
-title: Lab Website Template
-subtitle: by the Greene Lab
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
-header: images/background.jpg
-footer: images/background.jpg
+title: 胡致远课题组 | Hu Lab
+subtitle: Single-cell & Spatial Omics · Regulatory Genomics · Development & Disease
+description: 胡致远课题组依托武汉大学医学研究院/免疫与代谢前沿科学中心，聚焦单细胞与空间多组学、基因调控网络，以及发育与疾病相关机制研究。
+header: images/home/hero-multiome.jpg
+footer: images/home/footer-grid.png
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@your-lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: your-lab
-  twitter: YourLabHandle
-  youtube: YourLabChannel
+  email: zhiyuan.hu@whu.edu.cn
+  orcid: 0000-0002-1688-6032
+  google-scholar: TORNxtcAAAAJ
+  github: zhiyuan-hu-lab
+  twitter: zhi_yuan_hu
 
 ### jekyll settings
 
