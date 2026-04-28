@@ -1,23 +1,94 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+- id: doi:10.1101/2024.12.11.627935
+  type: preprint
+  description: RegVelo；若正式接收状态已公开，可更新为 in press。
   tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+    - software
+    - single-cell
+    - RNA velocity
+    - GRN
+    - method
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/theislab/regvelo
+    - type: docs
+      text: Docs
+      link: https://regvelo.readthedocs.io/
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- id: doi:10.1101/2024.09.17.613303
+  type: preprint
+  description: Cranial neural crest regulatory circuits.
+  tags:
+    - development
+    - neural crest
+    - multiome
+    - perturb-seq
+    - GRN
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/zhiyhu/neural-crest-scmultiomics
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.1038/s41467-025-63435-w
+  type: paper
+  description: TEMPT; Nature Communications (2025).
+  tags:
+    - epigenomics
+    - methylation
+    - EV-DNA
+    - liquid biopsy
+    - method
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/zhiyuan-hu-lab/TEMPT-paper
+
+- id: doi:10.1016/j.cellin.2026.100324
+  type: paper
+  description: FINE-EM-seq; Cell Insight (2026).
+  tags:
+    - epigenomics
+    - methylation
+    - zebrafish
+    - embryo
+    - method
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/zhiyuan-hu-lab/FINE-EM-seq
+
+- id: doi:10.1186/s13059-021-02561-2
+  type: paper
+  description: CIDER; Genome Biology (2021).
+  tags:
+    - software
+    - single-cell
+    - integration
+    - clustering
+    - method
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/zhiyuan-hu-lab/CIDER
+    - type: docs
+      text: Docs
+      link: https://zhiyuan-hu-lab.github.io/CIDER/
+
+- id: doi:10.1016/j.celrep.2023.113354
+  type: paper
+  description: WNT7A-FZD5 organoid work; Cell Reports (2023).
+  tags:
+    - organoid
+    - fallopian tube
+    - stem cell
+    - single-cell
+    - cancer
+
+- id: doi:10.1016/j.ccell.2020.01.003
+  type: paper
+  description: Single-cell profiling of normal fallopian tube epithelial cells; Cancer Cell (2020).
+  tags:
+    - single-cell
+    - cancer
+    - ovarian cancer
+    - heterogeneity
