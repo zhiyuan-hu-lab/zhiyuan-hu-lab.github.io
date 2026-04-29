@@ -1,4 +1,6 @@
-{% if include.lookup %}
+{% if include.citation %}
+  {% assign citation = include.citation %}
+{% elsif include.lookup %}
   {% assign lookup = include.lookup | strip %}
   {% assign citation = nil %}
 
