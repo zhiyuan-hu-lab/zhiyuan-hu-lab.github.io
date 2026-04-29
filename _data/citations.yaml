@@ -22,6 +22,7 @@
   file: sources.yaml
   type: paper
   description: FINE-EM-seq; Cell Insight (2026).
+  image: images/publications/fine-em-seq.png
   tags:
   - epigenomics
   - methylation
@@ -55,6 +56,7 @@
   file: sources.yaml
   type: paper
   description: TEMPT; Nature Communications (2025).
+  image: images/publications/tempt.png
   tags:
   - epigenomics
   - methylation
@@ -83,6 +85,7 @@
   file: sources.yaml
   type: preprint
   description: Cranial neural crest regulatory circuits.
+  image: images/publications/neural-crest.png
   tags:
   - development
   - neural crest
@@ -112,7 +115,8 @@
   plugin: sources.py
   file: sources.yaml
   type: preprint
-  description: "RegVelo\u3002"
+  description: RegVelo
+  image: images/publications/regvelo.png
   tags:
   - software
   - single-cell
@@ -261,6 +265,7 @@
   file: sources.yaml
   type: paper
   description: WNT7A-FZD5 organoid work; Cell Reports (2023).
+  image: images/publications/wnt7a-fzd5-organoids.png
   tags:
   - organoid
   - fallopian tube
@@ -581,6 +586,7 @@
   file: sources.yaml
   type: paper
   description: CIDER; Genome Biology (2021).
+  image: images/publications/cider.png
   tags:
   - software
   - single-cell
@@ -1325,6 +1331,7 @@
   type: paper
   description: Single-cell profiling of normal fallopian tube epithelial cells; Cancer
     Cell (2020).
+  image: images/publications/cancer-cell-fallopian-tube.png
   tags:
   - single-cell
   - cancer
