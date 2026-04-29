@@ -22,10 +22,19 @@ We study single-cell and spatial omics, gene regulatory networks, and mechanisms
 
 ## All Publications / 全部论文
 
-{% include citation.html lookup="doi:10.1016/j.cellin.2026.100324" style="rich" %}
-{% include citation.html lookup="doi:10.1038/s41467-025-63435-w" style="rich" %}
-{% include citation.html lookup="doi:10.1101/2024.09.17.613303" style="rich" %}
-{% include citation.html lookup="doi:10.1101/2024.12.11.627935" style="rich" %}
-{% include citation.html lookup="doi:10.1186/s13059-021-02561-2" style="rich" %}
-{% include citation.html lookup="doi:10.1016/j.celrep.2023.113354" style="rich" %}
-{% include citation.html lookup="doi:10.1016/j.ccell.2020.01.003" style="rich" %}
+{% assign exclude_ids = "
+doi:10.1101/2022.08.02.502319,
+doi:10.1101/2021.03.29.437525,
+doi:10.21203/rs.3.rs-731371/v1,
+doi:10.21203/rs.3.rs-721593/v1,
+doi:10.1038/s41388-022-02356-0,
+doi:10.3389/fnmol.2022.865110
+" | remove: " " | strip | split: "," %}
+
+{% assign publications = site.data.citations | sort: "date" | reverse %}
+
+{% for citation in publications %}
+  {% unless exclude_ids contains citation.id %}
+    {% include citation.html citation=citation style="rich" %}
+  {% endunless %}
+{% endfor %}
