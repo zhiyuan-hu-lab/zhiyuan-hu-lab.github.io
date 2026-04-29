@@ -1,9 +1,16 @@
 {% if include.lookup %}
-  {% assign citation = site.data.citations
-    | where_exp: "citation",
-      "citation.id == include.lookup or citation.title contains include.lookup"
-    | first
-  %}
+  {% assign lookup = include.lookup | strip %}
+  {% assign citation = nil %}
+
+  {% for item in site.data.citations %}
+    {% assign item_id = item.id | strip %}
+    {% assign item_title = item.title | default: "" %}
+
+    {% if item_id == lookup or item_title contains lookup %}
+      {% assign citation = item %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
 {% else %}
   {% assign citation = include %}
 {% endif %}
@@ -18,8 +25,9 @@
         class="citation-image"
         aria-label="{{ citation.title | default: "citation link" | regex_strip }}"
       >
+        {% assign citation_image = citation.image | default: "images/fallback.svg" %}
         <img
-          src="{{ citation.image | relative_url | uri_escape }}"
+          src="{{ citation_image | relative_url | uri_escape }}"
           alt="{{ citation.title | default: "citation image" | regex_strip }}"
           loading="lazy"
           {% include fallback.html %}
