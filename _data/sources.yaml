@@ -1,6 +1,7 @@
 - id: doi:10.1101/2024.12.11.627935
   type: preprint
-  description: RegVelo。
+  description: RegVelo
+  image: images/publications/regvelo.png
   tags:
     - software
     - single-cell
@@ -18,6 +19,7 @@
 - id: doi:10.1101/2024.09.17.613303
   type: preprint
   description: Cranial neural crest regulatory circuits.
+  image: images/publications/neural-crest.png
   tags:
     - development
     - neural crest
@@ -32,6 +34,7 @@
 - id: doi:10.1038/s41467-025-63435-w
   type: paper
   description: TEMPT; Nature Communications (2025).
+  image: images/publications/tempt.png
   tags:
     - epigenomics
     - methylation
@@ -46,6 +49,7 @@
 - id: doi:10.1016/j.cellin.2026.100324
   type: paper
   description: FINE-EM-seq; Cell Insight (2026).
+  image: images/publications/fine-em-seq.png
   tags:
     - epigenomics
     - methylation
@@ -60,6 +64,7 @@
 - id: doi:10.1186/s13059-021-02561-2
   type: paper
   description: CIDER; Genome Biology (2021).
+  image: images/publications/cider.png
   tags:
     - software
     - single-cell
@@ -77,6 +82,7 @@
 - id: doi:10.1016/j.celrep.2023.113354
   type: paper
   description: WNT7A-FZD5 organoid work; Cell Reports (2023).
+  image: images/publications/wnt7a-fzd5-organoids.png
   tags:
     - organoid
     - fallopian tube
@@ -87,6 +93,7 @@
 - id: doi:10.1016/j.ccell.2020.01.003
   type: paper
   description: Single-cell profiling of normal fallopian tube epithelial cells; Cancer Cell (2020).
+  image: images/publications/cancer-cell-fallopian-tube.png
   tags:
     - single-cell
     - cancer

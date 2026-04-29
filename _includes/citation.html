@@ -70,8 +70,15 @@
       </div>
 
       <div class="citation-details">
+        {% assign citation_id = citation.id | default: "" %}
+        {% assign publisher = citation.publisher | default: "[no publisher info]" %}
+
+        {% if publisher == "openRxiv" and citation_id contains "doi:10.1101/" %}
+          {% assign publisher = "bioRxiv" %}
+        {% endif %}
+
         <span class="citation-publisher">
-          {{- citation.publisher | default: "[no publisher info]" -}}
+          {{- publisher -}}
         </span>
         &nbsp;·&nbsp;
         <span class="citation-date">
