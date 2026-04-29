@@ -75,7 +75,7 @@
   - "Jos\xE9 M. Santos-Pereira"
   - Fabian Theis
   - Tatjana Sauka-Spengler
-  publisher: bioRxiv
+  publisher: openRxiv
   date: '2024-09-17'
   link: https://doi.org/g83xz5
   orcid: 0000-0002-1688-6032
@@ -105,15 +105,14 @@
   - Zhengyuan Xue
   - Tatjana Sauka-Spengler
   - Fabian J. Theis
-  publisher: bioRxiv
+  publisher: openRxiv
   date: '2024-12-11'
   link: https://doi.org/g83xz4
   orcid: 0000-0002-1688-6032
   plugin: sources.py
   file: sources.yaml
   type: preprint
-  description: "RegVelo\uFF1B\u82E5\u6B63\u5F0F\u63A5\u6536\u72B6\u6001\u5DF2\u516C\
-    \u5F00\uFF0C\u53EF\u66F4\u65B0\u4E3A in press\u3002"
+  description: "RegVelo\u3002"
   tags:
   - software
   - single-cell
@@ -561,7 +560,7 @@
   - Sachdev S Sidhu
   - Joan S. Brugge
   - Ahmed Ashour Ahmed
-  publisher: bioRxiv
+  publisher: openRxiv
   date: '2022-08-03'
   link: https://doi.org/g83xx8
   orcid: 0000-0002-1688-6032
@@ -720,7 +719,7 @@
   - Zhiyuan Hu
   - Ahmed A. Ahmed
   - Christopher Yau
-  publisher: bioRxiv
+  publisher: openRxiv
   date: '2021-03-30'
   link: https://doi.org/g83xzc
   orcid: 0000-0002-1688-6032
@@ -964,7 +963,7 @@
   - K. Wang
   - R. Moritz
   - L. Hood
-  publisher: bioRxiv
+  publisher: openRxiv
   date: '2021-11-01'
   link: https://doi.org/gsz3gp
   orcid: 0000-0002-1688-6032
@@ -2031,7 +2030,7 @@
   - Tatjana Sauka-Spengler
   - Christopher Yau
   - Ahmed A. Ahmed
-  publisher: bioRxiv
+  publisher: openRxiv
   date: '2019-06-17'
   link: https://doi.org/gkt8h2
   orcid: 0000-0002-1688-6032
