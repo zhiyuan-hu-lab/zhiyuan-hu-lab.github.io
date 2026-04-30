@@ -31,7 +31,11 @@ doi:10.1038/s41388-022-02356-0,
 doi:10.3389/fnmol.2022.865110
 " | remove: " " | strip | split: "," %}
 
-{% assign publications = site.data.citations | sort: "date" | reverse %}
+{% assign publications = site.data.citations
+  | where: "file", "sources.yaml"
+  | sort: "date"
+  | reverse
+%}
 
 {% for citation in publications %}
   {% unless exclude_ids contains citation.id %}
