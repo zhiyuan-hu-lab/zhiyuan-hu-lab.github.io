@@ -2,7 +2,7 @@
 name: 张崎峰 / Qifeng Zhang
 image: images/team/qifeng-zhang.jpg
 role: phd
-affiliation: "武汉大学医学研究院 / 免疫与代谢前沿科学中心<br>Medical Research Institute / Frontier Science Center for Immunology and Metabolism, Wuhan University"
+affiliation: "医学研究院<br>Medical Research Institute"
 aliases:
   - Zhang Qifeng
   - Zhang Q
