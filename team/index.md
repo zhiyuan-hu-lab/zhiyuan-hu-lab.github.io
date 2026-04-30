@@ -10,8 +10,6 @@ nav:
 胡致远课题组依托医学研究院。  
 Hu Lab is based at the Medical Research Institute.
 
-课题组成员 / Lab Members
-
 {% include section.html %}
 
 <div class="grid" data-style="team">
