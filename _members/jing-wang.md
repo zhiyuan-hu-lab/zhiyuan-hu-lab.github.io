@@ -2,7 +2,7 @@
 name: 王静 / Jing Wang
 image: images/team/jing-wang.jpg
 role: master
-affiliation: "武汉大学医学研究院 / 免疫与代谢前沿科学中心<br>Medical Research Institute / Frontier Science Center for Immunology and Metabolism, Wuhan University"
+affiliation: "医学研究院<br>Medical Research Institute"
 aliases:
   - Wang Jing
   - Wang J

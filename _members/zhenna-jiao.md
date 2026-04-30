@@ -2,7 +2,7 @@
 name: 焦振娜 / Zhenna Jiao
 image: images/team/zhenna-jiao.jpg
 role: phd
-affiliation: "武汉大学医学研究院 / 免疫与代谢前沿科学中心<br>Medical Research Institute / Frontier Science Center for Immunology and Metabolism, Wuhan University"
+affiliation: "医学研究院<br>Medical Research Institute"
 aliases:
   - Jiao Zhenna
   - Jiao Z

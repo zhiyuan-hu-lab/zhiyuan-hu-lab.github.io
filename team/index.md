@@ -7,17 +7,19 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team / 团队
 
-胡致远课题组依托武汉大学医学研究院 / 免疫与代谢前沿科学中心。  
-Hu Lab is based at the Medical Research Institute / Frontier Science Center for Immunology and Metabolism, Wuhan University.
+胡致远课题组依托医学研究院。  
+Hu Lab is based at the Medical Research Institute.
 
 课题组成员 / Lab Members
 
 {% include section.html %}
 
+<div class="grid" data-style="team">
 {% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
 {% include list.html data="members" component="portrait" filter="role == 'phd'" %}
 {% include list.html data="members" component="portrait" filter="role == 'master'" %}
 {% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
+</div>
 
 {% include section.html background="images/background.jpg" dark=true %}
 
