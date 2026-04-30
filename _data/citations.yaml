@@ -233,3 +233,107 @@
   - heterogeneity
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1158/1078-0432.CCR-20-2782
+  title: The Oxford Classic Links Epithelial-to-Mesenchymal Transition to Immunosuppression
+    in Poor Prognosis Ovarian Cancers
+  authors:
+  - Zhiyuan Hu
+  - Paula Cunnea
+  - Zhe Zhong
+  - Haonan Lu
+  - Oloruntoba I. Osagie
+  - Leticia Campo
+  - Mara Artibani
+  - Katherine Nixon
+  - Jennifer Ploski
+  - Laura Santana Gonzalez
+  - Abdulkhaliq Alsaadi
+  - Nina Wietek
+  - Stephen Damato
+  - Sunanda Dhar
+  - Sarah P. Blagden
+  - Christopher Yau
+  - Joanna Hester
+  - Ashwag Albukhari
+  - Eric O. Aboagye
+  - Christina Fotopoulou
+  - Ahmed Ahmed
+  publisher: Clinical Cancer Research
+  date: '2021-03-01'
+  link: https://doi.org/g83xzd
+  type: paper
+  description: The Oxford Classic links epithelial-mesenchymal transition to immunosuppression
+    in poor prognosis ovarian cancers; Clinical Cancer Research (2021).
+  image: images/publications/oxford-classic.png
+  tags:
+  - ovarian cancer
+  - EMT
+  - immunosuppression
+  - cancer genomics
+  - transcriptomics
+  buttons:
+  - type: source
+    text: Code
+    link: https://codeocean.com/capsule/6646000/tree
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41467-021-20920-2
+  title: Subtraction-free and bisulfite-free specific sequencing of 5-methylcytosine
+    and its oxidized derivatives at base resolution
+  authors:
+  - Yibin Liu
+  - Zhiyuan Hu
+  - Jingfei Cheng
+  - "Paulina Siejka-Zieli\u0144ska"
+  - Jinfeng Chen
+  - Masato Inoue
+  - Ahmed Ashour Ahmed
+  - Chun-Xiao Song
+  publisher: Nature Communications
+  date: '2021-01-27'
+  link: https://doi.org/gmsb2c
+  type: paper
+  description: Subtraction-free and bisulfite-free specific sequencing of 5-methylcytosine
+    and its oxidized derivatives at base resolution; Nature Communications (2021).
+  image: images/publications/caps-seq.png
+  tags:
+  - epigenomics
+  - methylation
+  - sequencing
+  - 5mC
+  - method
+  buttons:
+  - type: source
+    text: Code
+    link: https://github.com/zhiyhu/CAPS-paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/ncomms15943
+  title: A pan-cancer genome-wide analysis reveals tumour dependencies by induction
+    of nonsense-mediated decay
+  authors:
+  - Zhiyuan Hu
+  - Christopher Yau
+  - Ahmed Ashour Ahmed
+  publisher: Nature Communications
+  date: '2017-06-26'
+  link: https://doi.org/gbj3mn
+  type: paper
+  description: A pan-cancer genome-wide analysis reveals tumour dependencies by induction
+    of nonsense-mediated decay; Nature Communications (2017).
+  image: images/publications/nmd-pan-cancer.png
+  tags:
+  - cancer genomics
+  - nonsense-mediated decay
+  - pan-cancer
+  - tumour dependency
+  - computational biology
+  buttons:
+  - type: source
+    text: Code
+    link: https://github.com/zhiyhu/NMD-paper
+  - type: source
+    text: R package
+    link: https://github.com/zhiyhu/masonmd
+  plugin: sources.py
+  file: sources.yaml
