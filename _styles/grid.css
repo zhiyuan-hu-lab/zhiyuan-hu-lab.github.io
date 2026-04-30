@@ -42,4 +42,9 @@
   display: none;
 }
 
+.grid[data-style=team] .portrait {
+  justify-self: center;
+  margin: 0;
+}
+
 /*# sourceMappingURL=grid.css.map */
