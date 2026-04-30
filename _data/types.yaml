@@ -4,31 +4,31 @@
 
 principal-investigator:
   icon: fa-solid fa-microscope
-  description: Principal Investigator
+  description: 课题组长 / Principal Investigator
 
 postdoc:
   icon: fa-solid fa-glasses
-  description: Postdoctoral Researcher
+  description: 博士后 / Postdoctoral Researcher
 
 phd:
   icon: fa-solid fa-graduation-cap
-  description: PhD Student
+  description: 博士研究生 / PhD Student
 
 master:
   icon: fa-solid fa-user-graduate
-  description: Master Student
+  description: 硕士研究生 / Master Student
 
 undergrad:
   icon: fa-solid fa-user-graduate
-  description: Undergraduate Student
+  description: 本科生 / Undergraduate Student
 
 programmer:
   icon: fa-solid fa-code
-  description: Programmer
+  description: 科研程序员 / Programmer
 
 mascot:
   icon: fa-solid fa-dog
-  description: Mascot
+  description: Mascot / 吉祥物
 
 # general
 

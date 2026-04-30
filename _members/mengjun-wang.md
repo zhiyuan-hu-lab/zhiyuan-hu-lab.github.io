@@ -1,8 +1,8 @@
 ---
-name: Mengjun Wang
+name: 王梦君 / Mengjun Wang
 image: images/team/mengjun-wang.jpg
 role: master
-affiliation: 武汉大学医学研究院 / 免疫与代谢前沿科学中心
+affiliation: "武汉大学医学研究院 / 免疫与代谢前沿科学中心<br>Medical Research Institute / Frontier Science Center for Immunology and Metabolism, Wuhan University"
 aliases:
   - Wang Mengjun
   - Wang MJ

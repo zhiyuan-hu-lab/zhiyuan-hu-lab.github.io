@@ -1,8 +1,8 @@
 ---
-name: Zhiyuan Hu
+name: 胡致远 / Zhiyuan Hu
 image: images/team/zhiyuan-hu.jpg
 role: principal-investigator
-affiliation: 武汉大学医学研究院 / 免疫与代谢前沿科学中心
+affiliation: "武汉大学医学研究院 / 免疫与代谢前沿科学中心<br>Medical Research Institute / Frontier Science Center for Immunology and Metabolism, Wuhan University"
 aliases:
   - Hu Z
   - Z. Hu
