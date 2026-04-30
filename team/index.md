@@ -7,9 +7,10 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team / 团队
 
-Hu Lab is based at Wuhan University Medical Research Institute / Frontier Science Center for Immunology and Metabolism.
+胡致远课题组依托武汉大学医学研究院 / 免疫与代谢前沿科学中心。  
+Hu Lab is based at the Medical Research Institute / Frontier Science Center for Immunology and Metabolism, Wuhan University.
 
-胡致远课题组依托武汉大学医学研究院 / 免疫与代谢前沿科学中心。
+课题组成员 / Lab Members
 
 {% include section.html %}
 
@@ -20,6 +21,6 @@ Hu Lab is based at Wuhan University Medical Research Institute / Frontier Scienc
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-We welcome motivated students and collaborators interested in single-cell and spatial omics, regulatory genomics, and development & disease.
+课题组热忱欢迎有兴趣的科研助理、学生和博士后加入我们的团队！
 
-欢迎对单细胞与空间多组学、调控基因组学以及发育与疾病研究感兴趣的同学和合作者加入我们。
+We warmly welcome interested research assistants, students, and postdoctoral fellows to join our team.
