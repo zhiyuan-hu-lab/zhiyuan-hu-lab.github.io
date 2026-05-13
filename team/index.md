@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team / 团队
 
-胡致远课题组依托医学研究院。  
-Hu Lab is based at the Medical Research Institute.
+We are based at the Medical Research Institute, Wuhan University.
 
 {% include section.html %}
 

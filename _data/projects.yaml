@@ -3,7 +3,7 @@
   group: featured
   image: images/projects/regvelo-cover.png
   link: /projects/regvelo/
-  description: RegVelo 是一个 end-to-end 框架，将 splicing dynamics 与 gene regulatory priors 结合，用于推断单细胞 regulatory dynamics、latent time 和 perturbation effects。
+  description: RegVelo connects single-cell dynamics with gene regulatory networks to predict how cells choose their future states and which genes drive those transitions. By simulating regulatory perturbations, it helps prioritize experimentally testable drivers of cell fate.
   repo: theislab/regvelo
   tags:
     - software
@@ -16,10 +16,10 @@
   group: featured
   image: images/projects/neural-crest-cover.png
   link: /projects/neural-crest/
-  description: 该项目整合 multiome、Smart-seq3、MERSCOPE、Perturb-seq 与调控网络分析，用于解析 cranial neural crest migration 和 fate plasticity 的调控逻辑。
+  description: By integrating time-resolved single-cell multi-omics, spatial transcriptomics, and systematic Perturb-seq, this work maps the regulatory programs that guide cranial neural crest migration and fate decisions. It reveals how regulatory circuits control cell plasticity during development.
   repo: zhiyhu/neural-crest-scmultiomics
   tags:
-    - publication
+    - preprint
     - resource
     - development
     - multiomics
@@ -29,7 +29,7 @@
   group: featured
   image: images/projects/tempt-cover.png
   link: /projects/tempt/
-  description: TEMPT 是面向 EV-DNA 的低输入、非亚硫酸氢盐全基因组甲基化测序方法，用于胃癌液体活检和细胞间通信特征识别。
+  description: TEMPT enables whole-genome methylation profiling of extracellular vesicle DNA from low-input samples. The method supports liquid biopsy studies by revealing cancer-associated methylation patterns and intercellular communication features.
   repo: zhiyuan-hu-lab/TEMPT-paper
   tags:
     - method
@@ -41,7 +41,7 @@
   subtitle: Rapid isothermal methylome profiling for early embryos
   image: images/projects/fine-em-seq-cover.png
   link: /projects/fine-em-seq/
-  description: FINE-EM-seq 是面向斑马鱼早期胚胎的快速等温扩增甲基组方法，配套提供 reproducibility analysis repo。
+  description: FINE-EM-seq is a rapid isothermal amplification strategy for low-input methylome profiling. It enables high-coverage methylation analysis of early embryos and helps resolve methylome dynamics during development.
   repo: zhiyuan-hu-lab/FINE-EM-seq
   tags:
     - method
@@ -53,7 +53,7 @@
   subtitle: Interpretable meta-clustering for scRNA-seq integration and evaluation
   image: images/projects/cider-cover.png
   link: /projects/cider/
-  description: CIDER 是一个用于单细胞整合数据 meta-clustering 与 integration evaluation 的可解释框架，已提供文档站点与可安装 R 包。
+  description: CIDER is an interpretable meta-clustering framework for single-cell RNA-seq data integration and evaluation. It helps identify consistent cell populations across complex datasets while assessing whether integration preserves meaningful biological structure.
   repo: zhiyuan-hu-lab/CIDER
   tags:
     - software
