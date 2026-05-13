@@ -1,7 +1,8 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2024.12.11.627935
-  title: 'RegVelo: gene-regulatory-informed dynamics of single cells'
+- id: doi:10.1016/j.cell.2026.04.057
+  title: RegVelo links RNA velocity to gene regulation and predicts perturbation effects
+    across cell-state transitions
   authors:
   - Weixu Wang
   - Zhiyuan Hu
@@ -12,11 +13,11 @@
   - Zhengyuan Xue
   - Tatjana Sauka-Spengler
   - Fabian J. Theis
-  publisher: openRxiv
-  date: '2024-12-11'
-  link: https://doi.org/g83xz4
-  type: preprint
-  description: RegVelo
+  publisher: Cell
+  date: '2026-05-08'
+  link: https://www.cell.com/cell/fulltext/S0092-8674(26)00457-5
+  type: paper
+  description: RegVelo; Cell.
   image: images/publications/regvelo.png
   tags:
   - software
