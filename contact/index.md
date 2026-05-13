@@ -9,6 +9,8 @@ nav:
 
 欢迎对单细胞与空间多组学、基因调控网络、发育与疾病机制研究感兴趣的同学、博士后与合作伙伴联系。
 
+We welcome students, postdoctoral fellows, and collaborators who are interested in single-cell and spatial omics, gene regulatory networks, and mechanisms of development and disease.
+
 {%
   include button.html
   type="email"

@@ -15,7 +15,7 @@ We study single-cell and spatial omics, gene regulatory networks, and mechanisms
 
 ## Highlighted
 
-{% include citation.html lookup="doi:10.1101/2024.12.11.627935" style="rich" %}
+{% include citation.html lookup="doi:10.1016/j.cell.2026.04.057" style="rich" %}
 {% include citation.html lookup="doi:10.1016/j.ccell.2020.01.003" style="rich" %}
 
 {% include section.html %}
