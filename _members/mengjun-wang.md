@@ -1,6 +1,6 @@
 ---
 name: 王梦君 / Mengjun Wang
-image: images/team/name-slug.jpg
+image: images/team/mengjun-wang.jpg
 role: master
 affiliation: "医学研究院<br>Medical Research Institute"
 aliases:

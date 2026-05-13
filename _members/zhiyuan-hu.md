@@ -1,6 +1,6 @@
 ---
 name: 胡致远 / Zhiyuan Hu
-image: images/team/zhiyuan-hu.jpg
+image: images/team/zhiyuan-hu.jpeg
 role: principal-investigator
 affiliation: "医学研究院<br>Medical Research Institute"
 aliases:
