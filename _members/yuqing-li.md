@@ -1,6 +1,6 @@
 ---
 name: 李雨晴 / Yuqing Li
-image: images/team/name-slug.jpg
+image: images/team/yuqing-li.jpg
 role: master
 affiliation: "医学研究院<br>Medical Research Institute"
 aliases:

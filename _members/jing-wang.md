@@ -1,6 +1,6 @@
 ---
 name: 王静 / Jing Wang
-image: images/team/name-slug.jpg
+image: images/team/jing-wang.jpg
 role: master
 affiliation: "医学研究院<br>Medical Research Institute"
 aliases:
