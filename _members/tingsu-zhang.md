@@ -9,9 +9,6 @@ aliases:
   - 张廷苏
 links:
   email: zhang.tingsu@whu.edu.cn
-  orcid: 0000-0000-0000-0000
-  google-scholar: scholar_id
-  github: github_username
 ---
 
 中文简介：武汉大学医学研究院硕士研究生，现于胡致远课题组开展DNA甲基化测序相关研究。研究兴趣包括DNA甲基化测序和单细胞组学。

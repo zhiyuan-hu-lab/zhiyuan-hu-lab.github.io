@@ -10,7 +10,7 @@ aliases:
 links:
   email: 2022103010006@whu.edu.cn
   orcid: 0009-0006-9709-2360
-  google-scholar: baniawei0@gmail.com
+  google-scholar: TWz0TwEAAAAJ
   github: zhangqif
 ---
 
