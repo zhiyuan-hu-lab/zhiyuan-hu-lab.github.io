@@ -9,9 +9,8 @@ aliases:
   - 王梦君
 links:
   email: 2024206500015@whu.edu.cn
-  orcid: 0000-0000-0000-0000
-  google-scholar: Melodycell
-  github: Mengjun Wang
+  google-scholar: GSQ8URoAAAAJ
+  github: Melody-cell
 ---
 
 中文简介：武汉大学医学研究院硕士研究生，现于胡致远课题组开展单细胞组学、功能基因组学、表观遗传学相关研究。研究兴趣包括RNA动态检测、RNA修饰和斑马鱼胚胎发育。

@@ -9,9 +9,6 @@ aliases:
   - 卢云浩
 links:
   email: 2022302031071@whu.edu.cn
-  orcid: 0000-0000-0000-0000
-  google-scholar: scholar_id
-  github: github_username
 ---
 
 中文简介：武汉大学本科生，现于胡致远课题组参与科研训练。研究兴趣包括RNA修饰检测和单细胞测序。
