@@ -23,7 +23,7 @@ We study single-cell and spatial omics, gene regulatory networks, and mechanisms
 ## All Publications / 全部论文
 
 {% for citation in site.data.citations %}
-  {% if citation.file == "sources.yaml" %}
+  {% if citation.file == "sources.yaml" or citation.file == "orcid.yaml" %}
     {% include citation.html citation=citation style="rich" %}
   {% endif %}
 {% endfor %}
