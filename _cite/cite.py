@@ -29,7 +29,7 @@ log("Compiling sources")
 sources = []
 
 # in-order list of plugins to run
-plugins = ["google-scholar", "pubmed", "sources"]
+plugins = ["google-scholar", "pubmed", "orcid", "sources"]
 
 # loop through plugins
 for plugin in plugins:
@@ -39,8 +39,11 @@ for plugin in plugins:
     log(f"Running {plugin.stem} plugin")
 
     # get all data files to process with current plugin
-    files = Path.cwd().glob(f"_data/{plugin.stem}*.*")
-    files = list(filter(lambda p: p.suffix in [".yaml", ".yml", ".json"], files))
+    files = sorted(
+        path
+        for path in Path.cwd().glob(f"_data/{plugin.stem}*.*")
+        if path.suffix in [".yaml", ".yml", ".json"]
+    )
 
     log(f"Found {len(files)} {plugin.stem}* data file(s)", indent=1)
 
@@ -117,6 +120,22 @@ log()
 
 log("Generating citations")
 
+# load publication exclusions
+exclusions_file = Path("_data/publication-exclusions.yaml")
+excluded_ids = set()
+
+if exclusions_file.exists():
+    exclusions = load_data(exclusions_file) or []
+
+    if not isinstance(exclusions, list):
+        raise TypeError("_data/publication-exclusions.yaml must contain a YAML list")
+
+    excluded_ids = {
+        str(citation_id).strip().lower()
+        for citation_id in exclusions
+        if str(citation_id).strip()
+    }
+
 # list of new citations
 citations = []
 
@@ -134,6 +153,12 @@ for index, source in enumerate(sources):
 
     # source id
     _id = get_safe(source, "id", "").strip()
+    normalized_id = _id.lower()
+    source_file = get_safe(source, "file", "")
+
+    if normalized_id in excluded_ids and source_file != "sources.yaml":
+        log(f"Excluding known false-positive source {_id}", indent=1)
+        continue
 
     # Manubot doesn't work without an id
     if _id:
