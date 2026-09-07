@@ -304,7 +304,7 @@
   file: orcid.yaml
 - id: doi:10.1172/jci.insight.147929
   title: Adipocyte-like signature in ovarian cancer minimal residual disease identifies
-    metabolic vulnerabilities of tumor initiating cells
+    metabolic vulnerabilities of tumor-initiating cells
   authors:
   - Mara Artibani
   - Kenta Masuda
@@ -330,15 +330,15 @@
   - Takeshi Motohara
   - Ashwag Albukhari
   - Zhen Lu
-  - Robert C. Bast Jr.
+  - Robert C. Bast
   - Adrian L. Harris
   - Christer S. Ejsing
   - Robin W. Klemm
   - Christopher Yau
   - Tatjana Sauka-Spengler
-  - Ahmed A. Ahmed
+  - Ahmed Ashour Ahmed
   publisher: JCI Insight
-  date: '2021-05-04'
+  date: '2021-06-08'
   link: https://doi.org/gjvw76
   orcid: 0000-0002-1688-6032
   plugin: orcid.py
