@@ -1,7 +1,7 @@
 ---
 name: 吕逸轩 / Yixuan Lv
 image: images/team/yixuan-lv.jpg
-role: undergraduate
+role: undergrad
 affiliation: "生命科学学院<br>College of Life Sciences"
 aliases:
   - Lv Yixuan
