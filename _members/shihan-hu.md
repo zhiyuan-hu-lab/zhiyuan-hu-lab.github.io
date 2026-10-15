@@ -1,7 +1,7 @@
 ---
 name: 胡仕函 / Shihan Hu
 image: images/team/shihan-hu.jpg
-role: Undergraduate
+role: undergrad
 affiliation: "生命科学学院<br>College of Life Sciences"
 aliases:
   - Hu Shihan
