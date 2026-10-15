@@ -1,7 +1,7 @@
 ---
 name: "吴迪 / Di Wu"
 image: images/team/di-wu.jpg
-role: undergraduate
+role: undergrad
 affiliation: "生命科学学院<br>College of Life Sciences"
 aliases:
   - Wu Di
