@@ -1,7 +1,7 @@
 ---
 name: 徐彦博 / Yanbo Xu
 image: images/team/yanbo-xu.jpg
-role: master
+role: phd
 affiliation: "医学研究院<br>Medical Research Institute"
 aliases:
   - Yanbo Xu
