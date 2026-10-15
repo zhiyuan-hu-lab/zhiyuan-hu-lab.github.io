@@ -1,7 +1,7 @@
 ---
 name: 吴瑞哲 / Ruizhe Wu
 image: images/team/ruizhe-wu.jpg
-role: undergraduate
+role: undergrad
 affiliation: "医学研究院<br>Medical Research Institute"
 aliases:
   - Wu Ruizhe
