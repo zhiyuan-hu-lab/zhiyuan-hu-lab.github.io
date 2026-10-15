@@ -22,5 +22,4 @@ jobs:
       open-pr: true
 
   build-site:
-    needs: update-citations
     uses: ./.github/workflows/build-site.yaml
