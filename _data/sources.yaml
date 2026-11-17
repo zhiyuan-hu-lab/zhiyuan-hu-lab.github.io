@@ -1,3 +1,8 @@
+- id: doi:10.1038/s41556-026-02101-9
+  date: '2026-11-03'
+  link: https://doi.org/10.1038/s41556-026-02101-9
+  type: paper
+
 - id: doi:10.1016/j.cell.2026.04.022
   title: 'RegVelo: gene-regulatory-informed dynamics of single cells'
   authors:
